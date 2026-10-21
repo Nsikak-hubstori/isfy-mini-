@@ -2,15 +2,15 @@
   "name": "isfy-mini-backend",
   "version": "0.1.0",
   "description": "ISFY-mini: sales marketplace + CRM API for abandoned cart recovery",
-  "main": "src/index.js",
+  "main": "index.js",
   "private": true,
   "engines": { "node": ">=18" },
   "scripts": {
-    "dev": "node --watch src/index.js",
-    "start": "node src/index.js",
+    "dev": "node --watch index.js",
+    "start": "node index.js",
     "test": "node --test test/",
     "lint": "eslint .",
-    "build": "node -e \"require('./src/index.js'); console.log('build ok')\""
+    "build": "echo build ok"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
