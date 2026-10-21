@@ -1,0 +1,2 @@
+# Minimal Supabase CLI config so the GitHub integration finds ./supabase
+project_id = "vfphnqqtkvdsjywyvscw"
